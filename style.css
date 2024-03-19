@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    font-family:"inter";
+   }
+
+#logo{
+    margin-left:75px;
+    margin-top:50px;
+}
+#titulo1{
+    margin-left:195px;
+    margin-top:50px;
+    
+}
+#p1{
+    margin-left:190px;
+    margin-top:30px; 
+    padding-bottom: 190px;
+}
+#menu-superior{
+    background-image: url(imagens/banner.svg);
+    color:aliceblue;
+}
+#menu-informacional{
+    background-color:#EAECE5;
+    display: grid;
+    grid-auto-flow:column ;
+    columns:auto;
+}
+.icone{
+margin:50px 0px 50px 100px;
+padding:10px;
+}
+.texto-informativo{
+    margin:50px 50px 50px 70px;
+    display:flex;
+    align-items:center;
+}
+#video{
+    margin:75px 25px 50px 100px;
+    }
+#titulo2{
+    color:#247BA0;
+
+}
+#texto-secao-video{
+    margin-left:50px;
+}
+#secao-video{
+display:grid;
+grid-auto-flow: column;
+columns:auto;
+}
+#titulo3{
+    text-align:center;
+    color:#EAECE5;
+    font-size:25px;
+}
+#carrossel{
+    background-color:#247BA0;
+    padding:50px;
+}
+#cards{
+    margin-top:25px;
+    display:grid;
+    grid-auto-flow: column;
+}
+.cards{
+margin-left:50px;
+}
+#seta-esquerda{
+    display:none;
+}
+#marcos{
+    display:none;
+}
+.seta{
+    margin-left:30px;
+    margin-top:75px;
+    cursor:pointer;
+}
+.seta:hover{
+transform:translateY(-7px);
+transition: 0.5s;
+}
+#titulo-formulario{
+color:#383838;
+font-size:25px;
+margin:50px;
+}
+#formulario{
+ text-align:center;
+
+}
+#botao-formulario{
+    color:#FFFF;
+    font-size:12px;
+    background-color:#247BA0;
+    margin:25px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:15px;
+    padding-bottom:15px;
+    cursor:pointer;
+    border-radius:5px;
+    border:0px;
+    font-weight: bolder;
+}
+#botao-formulario:hover{
+    transform:translateY(-7px);
+    transition: 0.5s;
+    color:white;
+    background-color:rgb(55, 78, 179);
+    box-shadow: 0px 15px 20px #11143d;
+}
+
+.form{
+    Width:300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin:15px;
+    border:0px;
+    border-radius:5px;
+    padding-left:10px;
+}
